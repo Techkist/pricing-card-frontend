@@ -1,0 +1,144 @@
+html {
+  box-sizing: border-box;
+  font-family: 'karla';
+  font-size: 16px;
+  background-color: #E5EFF5;
+  padding: 10%
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#container {
+  width: 650px;
+  height: 450px;
+  box-shadow: 6px 9px 32px -4px rgba(23,22,22,0.55); 
+  border-radius: 0.8rem;
+  overflow: hidden;
+  }
+
+/*Everything topsection starts here */
+#top-section {
+  width: 100%;
+  height: 45%;
+  padding: 30px;
+  background-color: white;
+}
+
+p, h2, h4{
+  margin: 0;
+}
+
+#top-section h2 {
+  margin-bottom: 20px;
+  color: #2bb3b1
+}
+#top-section h4 {
+  margin-bottom: 15px;
+  color: #bfdf32;
+  font-size: 1.12rem
+}
+
+#top-section p {
+  margin-bottom: 10px;
+  color: #98A6BD
+}
+
+
+/*Everything bottom section starts here*/
+#bottom-section {
+  width: 100%;
+  height: 55%;
+
+}
+/* Everything left column starts here */
+#left-col {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 30px;
+  background-color: #2bb3b1;
+  color: white;
+}
+#left-col h3 {
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 1.08rem
+}
+
+#price-section {
+  margin-bottom: 10px;
+}
+
+#price {
+  font-size: 1.8rem;
+  display: inline-block;
+  font-weight: 700;
+}
+#month {
+  display: inline-block;
+  position: relative;
+  vertical-align: 4px;
+  margin-left: 10px;
+  opacity: 0.6
+}
+
+#left-col p {
+  margin-bottom: 20px;
+  font-size: 1.08rem
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  color: white;
+  border-radius: 0.5rem;
+  border: 0;
+  background-color: #bfdf32;
+  font-weight: 400;
+  font-size: 1rem;
+  
+  
+}
+
+button:hover {
+  box-shadow: -1px 6px 16px -2px rgba(23,22,22,0.55);
+  cursor: pointer;
+  transform: scale(1.06);
+  
+  
+}
+
+/*everything left column ends here */
+
+/* everytihing right colum starts here*/
+#right-col {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  padding: 30px;
+  background-color: #4abebd;
+  color: white;
+}
+#right-col h3, ul, li {
+  margin: 0;
+  list-style: none;
+  padding: 0
+}
+
+#right-col h3 {
+  margin-bottom: 15px
+}
+
+li {
+  font-size: 0.8rem;
+  margin-bottom: 4px;
+  opacity: 0.6;
+  
+}
+ul{
+  padding-bottom: 3px
+}
+/*everything right column ends here*/
